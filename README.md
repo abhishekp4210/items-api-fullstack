@@ -1,5 +1,9 @@
 # Items API (Lambda + HTTP API + DynamoDB)
 
+Items API is a full-stack project for creating and retrieving items. Its React frontend connects to a serverless AWS backend built with API Gateway, Python Lambda, and DynamoDB. Create an item to receive a generated ID, then use that ID to fetch it later.
+
+**Live demo:** [Try Items API](https://staging.d10d1sfrty34cu.amplifyapp.com/)
+
 ```
 .
 ├── template.yaml        # SAM template (function, table, API, log group, IAM)
