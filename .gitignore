@@ -1,0 +1,22 @@
+# AWS SAM build output
+.aws-sam/
+
+# Frontend dependencies and build output
+frontend/node_modules/
+frontend/dist/
+
+# Local environment and credentials
+.env
+.env.*
+!.env.example
+env.json
+samconfig.toml
+*.pem
+*.key
+
+# Editor and operating system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+*.swp
